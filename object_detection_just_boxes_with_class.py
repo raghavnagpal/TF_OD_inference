@@ -48,7 +48,7 @@ class object_detection(object):
 
         # self.h, self.w, _ = image.shape
         # invert
-        self.image = image[::-1, :, :]
+        self.image = image
 
         self.image_np = self.image[:, :, [2, 1, 0]]
         self.image_np = np.expand_dims(self.image_np, axis=0)
