@@ -96,6 +96,6 @@ for img_path in TEST_IMAGE_PATHS:
 
     cv.imshow("image",image)
     cv.waitKey(1)
-    cv.imwrite(img_path[:-4] + "_out_inv.jpg", image)
+    #cv.imwrite(img_path[:-4] + "_out_inv.jpg", image)
 
 print("end")
